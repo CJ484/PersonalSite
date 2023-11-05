@@ -1,10 +1,13 @@
+import avatar from './assets/images/avatar.png';
 import './App.styles.scss';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
     <div className="App">
-      <h1>New React App Template</h1>
+      <img src={avatar} alt="avatar" />
+      <h1>Hi I'm Carlos</h1>
+      <h1>I am A Front-End Developer</h1>
     </div>
   );
 }
