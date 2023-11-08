@@ -1,5 +1,5 @@
-const Resume = () => {
+const ResumePage = () => {
   return <div>Resume</div>;
 };
 
-export default Resume;
+export default ResumePage;

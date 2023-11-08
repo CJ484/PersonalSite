@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import HomePage from "../../pages/home";
 import logo from "../../assets/images/logo.png";
 import sun from "../../assets/symbols/sun.svg";
 import RouteInfo from "../../const/paths";
@@ -9,7 +8,7 @@ const NavDesktop = () => {
   const routes = RouteInfo();
   return (
     <div className="navDesktop">
-      <Link exact="true" to="/" element={<HomePage />}>
+      <Link exact="true" to="/">
         <img className="nav-logo" src={logo} alt="logo" />
       </Link>
       <div className="nav-menu">
@@ -19,8 +18,7 @@ const NavDesktop = () => {
               className="nav-menu-item"
               key={route.path}
               exact="true"
-              path={route.path}
-              element={route.element}
+              to={route.path}
             >
               <li>{route.title}</li>
             </Link>

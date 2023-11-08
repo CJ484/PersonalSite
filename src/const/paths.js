@@ -14,14 +14,14 @@ const RouteInfo = () => {
     },
     RESUME: {
       title: "Resume",
-      path: "/pages/resume",
-      element: <ProjectPage />,
+      path: "/resume",
+      element: <ResumePage />,
       exact: true,
     },
     PROJECTS: {
       title: "Projects",
-      path: "/pages/projects",
-      element: <ResumePage />,
+      path: "/projects",
+      element: <ProjectPage />,
       exact: true,
     }
   };
