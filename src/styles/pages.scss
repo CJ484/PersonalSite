@@ -1,0 +1,38 @@
+.home {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    h1 {
+        font-size: 32px;
+        color: #7159c1;
+    }
+    
+    p {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #333;
+        line-height: 1.5;
+        max-width: 400px;
+    }
+    
+    a {
+        color: #7159c1;
+        font-size: 14px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    img {
+        width: 250px;
+        margin-top: 20px;
+    }
+}

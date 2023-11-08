@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Nunito&display=swap');
+
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+.navDesktop {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 0 1.25rem;
+    line-height: 3.75rem;
+    font-size: 1rem;
+    color: #666;
+    .nav-logo {
+        float: left;
+        height: 5rem;
+        padding: 0 1.25rem;
+        cursor: pointer;
+    }
+
+    .nav-menu {
+        display: flex;
+        float: right;
+        height: 3.75rem;
+        line-height: 3.75rem;
+        margin: 10px 0;
+        
+        .nav-menu-item {
+            text-decoration: none;
+            list-style-type: none;
+            float: left;
+            padding: 0 0.9375rem;
+            color: #333;
+            li {
+                text-decoration: none;
+            }
+            :hover {
+                color: #7159c1;
+            }
+        }
+        .theme-selector {
+            width: 1.5rem;
+            float: right;
+            color: aqua;
+            cursor: pointer;
+        }
+    }
+}
