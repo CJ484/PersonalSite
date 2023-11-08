@@ -1,13 +1,19 @@
-import avatar from './assets/images/avatar.png';
-import './App.styles.scss';
+import {Routes, Route} from 'react-router';
+import RouteInfo from './const/paths';
+import NavDesktop from './Components/Nav';
+import './styles/App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
+  const routes = RouteInfo();
   return (
     <div className="App">
-      <img src={avatar} alt="avatar" />
-      <h1>Hi I'm Carlos</h1>
-      <h1>I am A Front-End Developer</h1>
+      <NavDesktop />
+      <Routes>
+        {Object.values(routes).map((route) => (
+          <Route key={route.path} path={route.path} element={route.element} />
+        ))}
+        </Routes>
     </div>
   );
 }
