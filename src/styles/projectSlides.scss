@@ -1,0 +1,25 @@
+.project-slide {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+    padding: 1rem;
+    .p-s-image {
+        width: 50%;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        img {
+            width: 100%;
+            border-radius: 0.125rem;
+        }
+    }
+    .p-s-content {
+        max-width: 28.125rem;
+        width: 50%;
+        .p-s-description {
+            text-wrap: wrap;
+        }
+        .p-s-link {
+            text-decoration: none;
+            color: grey;
+        }
+    }
+}

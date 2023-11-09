@@ -1,8 +1,12 @@
+import ProjectSlideTemplate from "../../Components/ProjectSlideTemplate";
+import projects from "../../const/projects";
+import '../../styles/pages.scss';
+
 const ProjectPage = () => {
   return (
-    <div>
+    <div className="router-page projectPage">
       <h1>Projects</h1>
-      <p>Projects will be listed here</p>
+      <ProjectSlideTemplate project={projects}/>
     </div>
   );
 };
