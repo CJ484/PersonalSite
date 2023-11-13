@@ -1,25 +1,39 @@
 .project-slide {
     display: flex;
     justify-content: space-around;
-    margin: 1rem 0;
+    border-radius: 0.5rem;
+    margin: 1rem;
     padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     .p-s-image {
         width: 50%;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
         img {
             width: 100%;
-            border-radius: 0.125rem;
+            border-radius: 0.3rem;
         }
     }
     .p-s-content {
         max-width: 28.125rem;
         width: 50%;
+        margin-left: 1rem;
         .p-s-description {
             text-wrap: wrap;
         }
         .p-s-link {
             text-decoration: none;
-            color: grey;
+            color: #808080;
+            &:hover {
+                color: #E5E497;
+                img {
+                    filter: invert(97%) sepia(9%) saturate(870%) hue-rotate(2deg) brightness(170%) contrast(80%);
+                }
+            }
+            img {
+                width: 1.5rem;
+                margin-right: 0.5rem;
+            }
         }
     }
 }

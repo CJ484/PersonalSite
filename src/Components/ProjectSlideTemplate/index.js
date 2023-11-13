@@ -1,3 +1,4 @@
+import web_chain from '../../assets/symbols/web-link.svg';
 import '../../styles/projectSlides.scss';
 
 const ProjectSlideTemplate = ({ project }) => {
@@ -16,6 +17,7 @@ const ProjectSlideTemplate = ({ project }) => {
           className="p-s-link"
         >
           View Project
+          <img src={web_chain} alt="link" />
         </a>
       </div>
     </div>

@@ -1,6 +1,6 @@
 const ResumePage = () => {
   return (
-    <div className="resume">
+    <div className="resume router-page">
       <h2>Check out my bio...</h2>
       <p className="summary">
         Nice to meet you all, I am a Front-End Developer. I like to free draw,
