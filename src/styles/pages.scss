@@ -37,6 +37,47 @@
     }
 }
 
+.resume {
+    padding: 2rem;
+    margin: 0 auto;
+    width: 60vw;
+    @media only screen and (max-width: 1200px) {
+        width: 90vw;
+    }
+    h2, h3 {
+        margin-top: 1rem;
+    }
+    a {
+        color: #7159c1;
+        text-decoration: none;
+    } 
+    .summary {
+        max-width: 60vw;
+        @media only screen and (max-width: 1200px) {
+            max-width: 90vw;
+        }
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    td {
+        padding: 0.5rem;
+    
+    }
+    .education-date {
+        color: #666;
+    }
+    .experience-location {
+        margin-right: 4rem;
+    }
+    .experience-date {
+        color: #666;
+    }
+
+}
+
 .projectPage {
     h1 {
         color: rgb(31, 40, 53);

@@ -3,6 +3,10 @@
 .App {
     display: flex;
     flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    h1, h2, h3 {
+        font-family: 'Nunito', sans-serif;
+    }
 }
 
 .navDesktop {
