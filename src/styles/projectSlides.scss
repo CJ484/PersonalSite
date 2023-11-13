@@ -4,30 +4,43 @@
     border-radius: 0.5rem;
     margin: 1rem;
     padding: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    @media only screen and (max-width: 920px) {
+        flex-direction: column;
+        align-items: center;
+    }
     .p-s-image {
         width: 50%;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
         img {
             width: 100%;
+            aspect-ratio: 16/8;
             border-radius: 0.3rem;
+        }
+        @media only screen and (max-width: 920px) {
+            width: 100%;
         }
     }
     .p-s-content {
         max-width: 28.125rem;
         width: 50%;
         margin-left: 1rem;
+        @media only screen and (max-width: 920px) {
+            margin-top: 1rem;
+            width: 100%;
+            margin-left: 0;
+        }
         .p-s-description {
             text-wrap: wrap;
         }
         .p-s-link {
             text-decoration: none;
-            color: #808080;
+            color: #595959;
             &:hover {
                 color: #E5E497;
                 img {
-                    filter: invert(97%) sepia(9%) saturate(870%) hue-rotate(2deg) brightness(170%) contrast(80%);
+                    filter: invert(97%) sepia(9%) saturate(870%) hue-rotate(2deg) brightness(170%) contrast(100%);
                 }
             }
             img {
