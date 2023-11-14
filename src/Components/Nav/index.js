@@ -3,8 +3,8 @@ import { useState } from "react";
 import { useColorMode } from "theme-ui";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
-import sun from "../../assets/symbols/sun.svg";
-import moon from "../../assets/symbols/moon.svg";
+import Sun from "../../assets/symbols/sun.js";
+import Moon from "../../assets/symbols/moon.js";
 import RouteInfo from "../../const/paths";
 import "../../styles/App.scss";
 
@@ -36,7 +36,12 @@ const NavDesktop = () => {
             </Link>
           ))}
         </ul>
-        <img
+        {lightTheme ? (
+          <Sun toggleTheme={toggleTheme} />
+        ) : (
+          <Moon toggleTheme={toggleTheme} />
+        )}
+        {/* <img
           sx={{
             fill: "text",
           }}
@@ -45,9 +50,9 @@ const NavDesktop = () => {
           aria-live="polite"
           id="theme-selector"
           className="theme-selector"
-          src={lightTheme ? sun : moon}
+          src={lightTheme ? <Sun /> : <Moon />}
           alt="theme-selector"
-        />
+        /> */}
       </div>
     </div>
   );

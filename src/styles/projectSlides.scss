@@ -36,15 +36,12 @@
         }
         .p-s-link {
             text-decoration: none;
+            svg {
+                margin-left: 0.3rem;
+                margin-bottom: 0.2rem;
+            }
             &:hover {
                 color: #c391e6;
-                img {
-                    filter: invert(97%) sepia(9%) saturate(870%) hue-rotate(225deg) brightness(170%) contrast(100%);
-                }
-            }
-            img {
-                width: 1.5rem;
-                margin-right: 0.5rem;
             }
         }
     }

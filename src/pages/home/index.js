@@ -1,9 +1,9 @@
 import mySkills from "../../const/skills";
 import avatar from "../../assets/images/myImage.jpg";
 import "../../styles/pages.scss";
-import github from "../../assets/symbols/github.svg";
-import linkedIn from "../../assets/symbols/linkedin.svg";
-import mail from "../../assets/symbols/mail.svg";
+import Github from "../../assets/symbols/github.js";
+import LinkedIn from "../../assets/symbols/linkedin.js";
+import Mail from "../../assets/symbols/mail.js";
 
 const HomePage = () => {
   return (
@@ -40,7 +40,7 @@ const HomePage = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={linkedIn} alt="linkedin symbol" />
+          <LinkedIn />
           <h5>@Carlos-Coreas</h5>
         </a>
         <a
@@ -49,7 +49,7 @@ const HomePage = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={github} alt="github symbol" />
+          <Github />
           <h5>@CJ484</h5>
         </a>
         <a
@@ -58,7 +58,7 @@ const HomePage = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={mail} alt="email symbol" />
+          <Mail />
           <h5>@ccoreas484</h5>
         </a>
       </div>

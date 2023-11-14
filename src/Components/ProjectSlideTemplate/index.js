@@ -1,5 +1,5 @@
 /** @jsxImportSource theme-ui */
-import web_chain from "../../assets/symbols/web-link.svg";
+import WebLink from "../../assets/symbols/web-link.js";
 import "../../styles/projectSlides.scss";
 
 const ProjectSlideTemplate = ({ project }) => {
@@ -19,7 +19,7 @@ const ProjectSlideTemplate = ({ project }) => {
           className="p-s-link"
         >
           View Project
-          <img src={web_chain} alt="link" />
+          <WebLink />
         </a>
       </div>
     </div>
