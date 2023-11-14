@@ -1,9 +1,10 @@
-import '../../styles/pages.scss';
+/** @jsxImportSource theme-ui */
+import "../../styles/pages.scss";
 
 const ResumePage = () => {
   return (
     <div className="resume router-page">
-      <h2 className='subtitle'>Check out my bio...</h2>
+      <h2 className="subtitle">Check out my bio...</h2>
       <p className="summary">
         Nice to meet you all, I am a Front-End Developer. I like to free draw,
         so getting creative ideas on a website is my speaciality. I also like
@@ -18,24 +19,30 @@ const ResumePage = () => {
         visible on the web. Web 3.0 will soon be here, so I am also learning
         about blockchain and cryptocurrency.
       </p>
-      <h3 className='subtitle'>Education</h3>
+      <h3 className="subtitle">Education</h3>
       <table>
         <tbody>
           <tr>
             <td className="education-location">Mentorship</td>
             <td>
               I am currently being taught by{" "}
-              <a href="https://github.com/michaeltomasik" target='_blank' rel="noreferrer" >Michał Tomasik</a> on
-              how to be a better developer
+              <a
+                href="https://github.com/michaeltomasik"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Michał Tomasik
+              </a>{" "}
+              on how to be a better developer
             </td>
-            <td className="education-date">March 2023 - Present</td>
+            <td sx={{color: 'grey'}} className="education-date">March 2023 - Present</td>
           </tr>
           <tr>
             <td className="education-location">General Assembly</td>
             <td>
               I took a 3 month bootcamp to learn more about Javascript and React
             </td>
-            <td className="education-date">September 2021 - December2021</td>
+            <td sx={{color: 'grey'}} className="education-date">September 2021 - December2021</td>
           </tr>
           <tr>
             <td className="education-location">Codecademy</td>
@@ -43,26 +50,26 @@ const ResumePage = () => {
               I started my learning path by self teaching myself the basics of
               HTML, CSS, JS
             </td>
-            <td className="education-date">December 2020 - March 2021</td>
+            <td sx={{color: 'grey'}} className="education-date">December 2020 - March 2021</td>
           </tr>
           <tr>
             <td className="education-location">Suffolk County College</td>
             <td>
               I received my associates degree in Liberal Arts and Sciences
             </td>
-            <td className="education-date">2015 - 2021</td>
+            <td sx={{color: 'grey'}} className="education-date">2015 - 2021</td>
           </tr>
         </tbody>
       </table>
-      <h3 className='subtitle'>Experience</h3>
+      <h3 className="subtitle">Experience</h3>
       <table>
         <tbody>
           <tr>
-            <td className="experience-date">September 2021 - Present</td>
+            <td sx={{color: 'grey'}} className="experience-date">September 2021 - Present</td>
             <td className="experience-location">Lowes</td>
           </tr>
           <tr>
-            <td className="experience-date">October 2023 - Present</td>
+            <td sx={{color: 'grey'}} className="experience-date">October 2023 - Present</td>
             <td className="experience-location">Freelance</td>
           </tr>
         </tbody>

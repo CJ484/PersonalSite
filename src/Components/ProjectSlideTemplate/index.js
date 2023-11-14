@@ -1,5 +1,6 @@
-import web_chain from '../../assets/symbols/web-link.svg';
-import '../../styles/projectSlides.scss';
+/** @jsxImportSource theme-ui */
+import web_chain from "../../assets/symbols/web-link.svg";
+import "../../styles/projectSlides.scss";
 
 const ProjectSlideTemplate = ({ project }) => {
   return Object.values(project).map((project) => (
@@ -11,6 +12,7 @@ const ProjectSlideTemplate = ({ project }) => {
         <h3 className="p-s-title">{project.name}</h3>
         <p className="ps-description">{project.description}</p>
         <a
+          sx={{ color: 'grey'}}
           href={project.link}
           target="_blank"
           rel="noopener noreferrer"

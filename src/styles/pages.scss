@@ -1,5 +1,4 @@
 .home {
-    background: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -42,13 +41,12 @@
     p {
         margin-top: 10px;
         font-size: 1.25rem;
-        color: #333;
         line-height: 2;
         max-width: 60vw;
     }
 
     a {
-        color: #7159c1;
+        color: #A693D7;
         font-size: 14px;
         text-decoration: none;
         font-weight: bold;
@@ -142,7 +140,6 @@
         max-width: 60vw;
         line-height: 2;
         font-size: 1.25rem;
-        color: #333;
         @media only screen and (max-width: 1200px) {
             max-width: 90vw;
         }
@@ -155,20 +152,15 @@
     td {
         padding: 0.5rem;
     }
-    .education-date {
-        color: #666;
-    }
+
     .experience-location {
         margin-right: 4rem;
     }
-    .experience-date {
-        color: #666;
-    }
+
 }
 
 .projectPage {
     h1 {
-        color: rgb(31, 40, 53);
         margin-left: 2rem;
     }
 }

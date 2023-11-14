@@ -36,11 +36,10 @@
         }
         .p-s-link {
             text-decoration: none;
-            color: #595959;
             &:hover {
-                color: #E5E497;
+                color: #c391e6;
                 img {
-                    filter: invert(97%) sepia(9%) saturate(870%) hue-rotate(2deg) brightness(170%) contrast(100%);
+                    filter: invert(97%) sepia(9%) saturate(870%) hue-rotate(225deg) brightness(170%) contrast(100%);
                 }
             }
             img {

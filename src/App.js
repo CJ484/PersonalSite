@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import { Routes, Route } from "react-router";
 import { Suspense } from "react";
 import RouteInfo from "./const/paths";
@@ -8,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   const routes = RouteInfo();
   return (
-    <div className="App">
+    <div sx={{backgroundColor: 'background', color: 'text'}}className="App">
       <NavDesktop />
       <Routes>
         {Object.values(routes).map((route) => (

@@ -10,12 +10,10 @@
 }
 
 .navDesktop {
-    background-color: #fff;
     border-bottom: 1px solid #eee;
     padding: 0 1.25rem;
     line-height: 3.75rem;
     font-size: 1rem;
-    color: #666;
     .nav-logo {
         float: left;
         height: 5rem;
@@ -46,7 +44,6 @@
         .theme-selector {
             width: 1.5rem;
             float: right;
-            color: aqua;
             cursor: pointer;
         }
     }
