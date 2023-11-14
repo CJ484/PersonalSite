@@ -105,6 +105,10 @@
 }
 
 .resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 2rem;
     margin: 0 auto;
     width: 60vw;
@@ -117,6 +121,7 @@
     }
 
     .subtitle {
+        display: flex;
         margin-top: 0.625rem;
         position: relative;
        &::after {
@@ -135,6 +140,9 @@
     }
     .summary {
         max-width: 60vw;
+        line-height: 2;
+        font-size: 1.25rem;
+        color: #333;
         @media only screen and (max-width: 1200px) {
             max-width: 90vw;
         }

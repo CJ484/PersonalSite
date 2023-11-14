@@ -3,7 +3,7 @@ import '../../styles/pages.scss';
 const ResumePage = () => {
   return (
     <div className="resume router-page">
-      <h2>Check out my bio...</h2>
+      <h2 className='subtitle'>Check out my bio...</h2>
       <p className="summary">
         Nice to meet you all, I am a Front-End Developer. I like to free draw,
         so getting creative ideas on a website is my speaciality. I also like
@@ -15,9 +15,10 @@ const ResumePage = () => {
         about the backend, so I can be a Full-Stack Developer. I am also
         learning about UI/UX design, so I can make my websites look more
         appealing. I am also learning about SEO, so I can make my websites more
-        visible on the web.
+        visible on the web. Web 3.0 will soon be here, so I am also learning
+        about blockchain and cryptocurrency.
       </p>
-      <h3>Education</h3>
+      <h3 className='subtitle'>Education</h3>
       <table>
         <tbody>
           <tr>
@@ -53,7 +54,7 @@ const ResumePage = () => {
           </tr>
         </tbody>
       </table>
-      <h3>Experience</h3>
+      <h3 className='subtitle'>Experience</h3>
       <table>
         <tbody>
           <tr>
