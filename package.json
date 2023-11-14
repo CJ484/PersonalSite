@@ -27,6 +27,7 @@
     "react-router": "^6.15.0",
     "react-scripts": "5.0.1",
     "sass": "^1.66.1",
+    "theme-ui": "^0.16.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
