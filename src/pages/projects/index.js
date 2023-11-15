@@ -5,7 +5,7 @@ import '../../styles/pages.scss';
 const ProjectPage = () => {
   return (
     <div className="router-page projectPage">
-      <h1>Projects</h1>
+      <h1 className="subtitle">Projects</h1>
       <ProjectSlideTemplate project={projects}/>
     </div>
   );
