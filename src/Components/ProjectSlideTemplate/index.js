@@ -4,7 +4,7 @@ import "../../styles/projectSlides.scss";
 
 const ProjectSlideTemplate = ({ project }) => {
   return Object.values(project).map((project) => (
-    <div className="project-slide">
+    <div sx={{background: 'projectSlide'}} className="project-slide">
       <div className="p-s-image">
         <img src={project.image} alt={project.name} />
       </div>
