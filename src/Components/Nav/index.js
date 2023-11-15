@@ -41,18 +41,6 @@ const NavDesktop = () => {
         ) : (
           <Moon toggleTheme={toggleTheme} />
         )}
-        {/* <img
-          sx={{
-            fill: "text",
-          }}
-          onClick={() => toggleTheme()}
-          aria-label="auto"
-          aria-live="polite"
-          id="theme-selector"
-          className="theme-selector"
-          src={lightTheme ? <Sun /> : <Moon />}
-          alt="theme-selector"
-        /> */}
       </div>
     </div>
   );
