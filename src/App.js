@@ -2,7 +2,7 @@
 import { Routes, Route } from "react-router";
 import { Suspense } from "react";
 import RouteInfo from "./const/paths";
-import NavDesktop from "./Components/Nav";
+import { NavDesktop, Loading } from "./Components/";
 import "./styles/App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -16,7 +16,7 @@ function App() {
           <Route
             key={route.path}
             path={route.path}
-            element={<Suspense fallback="Loading...">{route.element}</Suspense>}
+            element={<Suspense fallback={<Loading />}>{route.element}</Suspense>}
             exact={route.exact}
           />
         ))}

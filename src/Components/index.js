@@ -1,3 +1,5 @@
-import Languagelist from "./LanguageList";
+import ProjectSlideTemplate from "./ProjectSlideTemplate";
+import NavDesktop from "./Nav";
+import Loading from "./Loading";
 
-export { Languagelist }
+export { ProjectSlideTemplate, NavDesktop, Loading }
