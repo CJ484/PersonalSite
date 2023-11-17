@@ -1,6 +1,7 @@
 {
   "name": "carlos-portfolio",
   "version": "0.1.0",
+  "homepage": "https://cj484.github.io/PersonalSite",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -32,8 +33,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "jest",
     "eject": "react-scripts eject"
   },
@@ -58,6 +61,7 @@
   "devDependencies": {
     "@babel/preset-env": "^7.22.14",
     "@babel/preset-react": "^7.22.5",
+    "gh-pages": "^6.0.0",
     "react-router-dom": "^6.15.0",
     "react-test-renderer": "^18.2.0"
   }

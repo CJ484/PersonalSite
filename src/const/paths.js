@@ -8,19 +8,19 @@ const RouteInfo = () => {
   const routes = {
     HOME: {
       title: "Home",
-      path: "/",
+      path: "",
       element: <HomePage />,
       exact: true,
     },
     RESUME: {
       title: "Resume",
-      path: "/resume",
+      path: "resume",
       element: <ResumePage />,
       exact: true,
     },
     PROJECTS: {
       title: "Projects",
-      path: "/projects",
+      path: "projects",
       element: <ProjectPage />,
       exact: true,
     }
