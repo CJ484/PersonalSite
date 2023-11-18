@@ -23,25 +23,28 @@ const NavDesktop = () => {
       <Link exact="true" to="/">
         <img className="nav-logo" src={logo} alt="logo" />
       </Link>
-      <div className="nav-menu">
-        <ul>
+      <ul className="nav-menu">
+        
           {Object.values(routes).map((route) => (
+            <li>
             <Link
+              sx={{color: 'grey'}}
               className="nav-menu-item"
               key={route.path}
               exact="true"
               to={route.path}
             >
-              <li sx={{color: 'grey'}}>{route.title}</li>
+              {route.title}
             </Link>
+            </li>
           ))}
-        </ul>
+        
         {lightTheme ? (
           <Sun toggleTheme={toggleTheme} />
         ) : (
           <Moon toggleTheme={toggleTheme} />
         )}
-      </div>
+      </ul>
     </div>
   );
 };

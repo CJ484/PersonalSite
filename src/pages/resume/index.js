@@ -27,6 +27,7 @@ const ResumePage = () => {
             <td>
               I am currently being taught by{" "}
               <a
+                sx={{color: 'purple'}}
                 href="https://github.com/michaeltomasik"
                 target="_blank"
                 rel="noreferrer"
