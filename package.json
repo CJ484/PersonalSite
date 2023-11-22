@@ -1,7 +1,7 @@
 {
   "name": "carlos-portfolio",
   "version": "0.1.0",
-  "homepage": "https://cj484.github.io/PersonalSite",
+  "homepage": "https://www.carloscodes.cc/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
