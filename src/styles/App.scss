@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Nunito&display=swap");
 
 .App {
     display: flex;
     font-display: swap;
     flex-direction: column;
-    font-family: 'Lato', sans-serif;
-    h1, h2, h3 {
-        font-family: 'Nunito', sans-serif;
+    font-family: "Lato", sans-serif;
+    h1,
+    h2,
+    h3 {
+        font-family: "Nunito", sans-serif;
     }
 }
 
@@ -15,6 +17,9 @@
     padding: 0 1.25rem;
     line-height: 3.75rem;
     font-size: 1rem;
+    @media (max-width: 500px) {
+        display: none;
+    }
     .nav-logo {
         float: left;
         height: 5rem;
@@ -48,6 +53,63 @@
             align-self: center;
             float: right;
             cursor: pointer;
+        }
+    }
+}
+
+.navMobile {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    border-bottom: 1px solid #eee;
+    line-height: 3.75rem;
+    font-size: 1rem;
+    @media (max-width: 500px) {
+        display: flex;
+    }
+
+    .nav-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nav-logo {
+            float: left;
+            height: 5rem;
+            width: 7.5rem;
+            padding: 0 1.25rem;
+            cursor: pointer;
+        }
+
+        .menu-icon {
+            margin: 0 1.25rem;
+            cursor: pointer;
+        }
+    }
+
+    .show {
+        display: flex !important;
+    }
+
+    .nav-menu-holder {
+        margin: 0;
+        padding: 0;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+        align-items: center;
+        .nav-menu-item {
+            text-decoration: none;
+            list-style-type: none;
+            float: left;
+            padding: 0 0.9375rem;
+            li {
+                text-decoration: none;
+            }
+            :hover {
+                color: #7159c1;
+            }
         }
     }
 }
