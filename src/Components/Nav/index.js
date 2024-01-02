@@ -1,23 +1,12 @@
 /** @jsxImportSource theme-ui */
-import { useState } from "react";
-import { useColorMode } from "theme-ui";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
-import Sun from "../../assets/symbols/sun.js";
-import Moon from "../../assets/symbols/moon.js";
 import RouteInfo from "../../const/paths";
 import "../../styles/App.scss";
+import ThemeToggle from "../ThemeToggle";
 
 const NavDesktop = () => {
   const routes = RouteInfo();
-  const [colorMode, setColorMode] = useColorMode();
-  const [lightTheme, setLightTheme] = useState(true);
-
-  const toggleTheme = () => {
-    setLightTheme(!lightTheme);
-    setColorMode(colorMode === "default" ? "dark" : "default");
-  };
-
   return (
     <div className="navDesktop">
       <Link exact="true" to="/">
@@ -38,12 +27,7 @@ const NavDesktop = () => {
             </Link>
             </li>
           ))}
-        
-        {lightTheme ? (
-          <Sun toggleTheme={toggleTheme} />
-        ) : (
-          <Moon toggleTheme={toggleTheme} />
-        )}
+          <ThemeToggle />
       </ul>
     </div>
   );
