@@ -27,7 +27,7 @@ const projects = {
     description:
       "This concept website is for a dog walking service that I created to help practice using Redux-Saga in my web applications.",
     image: `${dogwalk}`,
-    link: "https://65078b27d7cc59000816ab7d--neighbormydog.netlify.app/",
+    link: "https://neighbormydog.netlify.app",
   },
   project3: {
     name: "Foodie",
