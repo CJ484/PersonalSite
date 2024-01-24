@@ -5,22 +5,30 @@ import {
   pokedex,
   prestige,
   log_in_form,
+  pixelPerfect,
 } from "../assets/images/projects/index.js";
 
 const projects = {
-  project6: {
+  project7: {
     name: "Prestige Care NY",
     description:
       "A webiste redesign for a Long Island based landscaping company.",
     image: `${prestige}`,
     link: "https://654146cba952f84fc33be4f5--prestige-care.netlify.app/",
   },
-  project5: {
+  project6: {
     name: "Log In Form",
     description:
       "This is a simple log in form that I created to practice using Node.js, Next.js, Express, Prisma.io and PostgreSQl.",
     image: `${log_in_form}`,
     link: "https://log-in-form-444.netlify.app/",
+  },
+  project5: {
+    name: "Pixel Perfect Recreation",
+    description:
+      "Using Figma Design Guideline, I recreated a website design to practice my CSS skills. The orignal design was given by my mentor and I was tasked with recreating the design as precision as possible.",
+    image: `${pixelPerfect}`,
+    link: "https://mockk-portfolio.netlify.app",
   },
   project4: {
     name: "Neighbor My Dog",
