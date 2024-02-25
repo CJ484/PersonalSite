@@ -42,7 +42,7 @@ const projects = {
     description:
       "For my final project at General Assembly, I created a recipe search app using React and the Spoonacular API. The app allows users to search for recipes by name, ingredients, or cuisine type using a query search on the endpoint(URL).",
     image: `${final_project}`,
-    link: "https://651e15569510240007e8009d--foodie-recipe-search.netlify.app/",
+    link: "https://foodie-recipes484.netlify.app",
   },
   project2: {
     name: "Pokedex",
