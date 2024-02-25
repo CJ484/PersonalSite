@@ -36,7 +36,8 @@
             text-wrap: wrap;
         }
         .p-s-link {
-            text-decoration: none;
+            text-decoration: underline;
+            text-underline-offset: 0.2rem;
             svg {
                 margin-left: 0.3rem;
                 margin-bottom: 0.2rem;
