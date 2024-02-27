@@ -1,16 +1,18 @@
 /** @jsxImportSource theme-ui */
+import { ResumeButton } from "../../Components";
 import "../../styles/pages.scss";
 
 const ResumePage = () => {
   return (
     <div className="resume router-page">
+      <ResumeButton />
       <h2 className="subtitle">Check out my bio...</h2>
       <p className="summary">
         Nice to meet you all, I am a Front-End Developer. I like to free draw,
         so getting creative ideas on a website is my speaciality. I also like
         everything when it comes to technology, so I am always learning new
         things. You can always say "Whats going to be the next big thing? and
-        will we get Marty Mcfly's hoverboard?". I enjoyed codiung when I took my
+        will we get Marty Mcfly's hoverboard?". I enjoyed coding when I took my
         first class in college, and I have been doing it ever since. I am
         currently learning more about React and Javascript. I am also learning
         about the backend, so I can be a Full-Stack Developer. I am also
