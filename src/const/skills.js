@@ -1,7 +1,5 @@
 import {
-  aws_api_gateway,
-  aws_lambda,
-  aws_ses,
+  aws,
   bootstrap,
   css,
   html,
@@ -61,38 +59,30 @@ const mySkills = {
     image: jest,
   },
   skill_11: {
-    name: "AWS Lambda",
-    image: aws_lambda,
+    name: "AWS Services",
+    image: aws,
   },
   skill_12: {
-    name: "AWS SES",
-    image: aws_ses,
-  },
-  skill_13: {
-    name: "AWS API Gateway",
-    image: aws_api_gateway,
-  },
-  skill_14: {
     name: "Netlify",
     image: netlify,
   },
-  skill_15: {
+  skill_13: {
     name: "Next.js",
     image: next_js,
   },
-  skill_16: {
+  skill_14: {
     name: "Express.js",
     image: express_js,
   },
-  skill_17: {
+  skill_15: {
     name: "Node.js",
     image: node_js,
   },
-  skill_18: {
+  skill_16: {
     name: "PostgreSQL",
     image: postgresql,
   },
-  skill_19: {
+  skill_17: {
     name: "TypeScript",
     image: typescript,
   },

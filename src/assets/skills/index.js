@@ -1,6 +1,4 @@
-import aws_api_gateway from "./aws-api-gateway.svg";
-import aws_lambda from "./aws-lambda.svg";
-import aws_ses from "./aws-ses.svg";
+import aws from "./aws.svg";
 import bootstrap from "./bootstrap.svg";
 import css from "./css.svg";
 import html from "./html.svg";
@@ -18,9 +16,7 @@ import postgresql from "./postgresql.svg";
 import typescript from "./typescript.svg";
 
 export {
-  aws_api_gateway,
-  aws_lambda,
-  aws_ses,
+  aws,
   bootstrap,
   css,
   html,
