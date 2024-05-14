@@ -6,9 +6,17 @@ import {
   prestige,
   log_in_form,
   pixelPerfect,
+  iglesia_el_nazareno
 } from "../assets/images/projects/index.js";
 
 const projects = {
+  project8: {
+    name: "Iglesia El Nazareno",
+    description:
+      "A local Pentecostal church website that I created. The Website is a simple design that includes a home, about, Directive and Calendar page. I created this website to help the church reach out to the community and provide information about the church and its service days. As well integrated a calendar Page to keep the church members up to date with the church events.",
+    image: `${iglesia_el_nazareno}`,
+    link: "https://iglesiaelnazareno.netlify.app/",
+  },
   project7: {
     name: "Prestige Care NY",
     description:
@@ -26,7 +34,7 @@ const projects = {
   project5: {
     name: "Pixel Perfect Recreation",
     description:
-      "Using Figma Design Guideline, I recreated a website design to practice my CSS skills. The orignal design was given by my mentor and I was tasked with recreating the design as precision as possible.",
+      "Using Figma Design Guideline, I recreated a website design to practice my CSS skills. The original design was given by my mentor and I was tasked with recreating the design as precision as possible.",
     image: `${pixelPerfect}`,
     link: "https://mockk-portfolio.netlify.app",
   },
