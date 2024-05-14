@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.4a391b03.css",
-    "main.js": "/static/js/main.dbb02f1d.js",
+    "main.js": "/static/js/main.770b9b04.js",
     "static/js/400.daba68bb.chunk.js": "/static/js/400.daba68bb.chunk.js",
-    "static/js/246.5a7ddc96.chunk.js": "/static/js/246.5a7ddc96.chunk.js",
+    "static/js/612.4dc5ea76.chunk.js": "/static/js/612.4dc5ea76.chunk.js",
     "static/js/308.0a1f1bb4.chunk.js": "/static/js/308.0a1f1bb4.chunk.js",
     "static/media/dogwalk.png": "/static/media/dogwalk.bd92f84d763aa0cda7dc.png",
     "static/media/prestige.png": "/static/media/prestige.ea5cef35df4e931fef4c.png",
+    "static/media/iglesia_el_nazareno.png": "/static/media/iglesia_el_nazareno.c622e054291802d5c3e5.png",
     "static/media/log_in_form.png": "/static/media/log_in_form.9e276e4f0d8e87f1db62.png",
     "static/media/pokedex.png": "/static/media/pokedex.eea175968f26dba90e49.png",
     "static/media/final_project.png": "/static/media/final_project.e83bd840ec7f8be7ab79.png",
@@ -33,13 +34,13 @@
     "static/media/html.svg": "/static/media/html.bfc29cc664956a7748f9ee78fa82ec7b.svg",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.4a391b03.css.map": "/static/css/main.4a391b03.css.map",
-    "main.dbb02f1d.js.map": "/static/js/main.dbb02f1d.js.map",
+    "main.770b9b04.js.map": "/static/js/main.770b9b04.js.map",
     "400.daba68bb.chunk.js.map": "/static/js/400.daba68bb.chunk.js.map",
-    "246.5a7ddc96.chunk.js.map": "/static/js/246.5a7ddc96.chunk.js.map",
+    "612.4dc5ea76.chunk.js.map": "/static/js/612.4dc5ea76.chunk.js.map",
     "308.0a1f1bb4.chunk.js.map": "/static/js/308.0a1f1bb4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a391b03.css",
-    "static/js/main.dbb02f1d.js"
+    "static/js/main.770b9b04.js"
   ]
 }
