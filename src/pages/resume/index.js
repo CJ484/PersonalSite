@@ -38,7 +38,7 @@ const ResumePage = () => {
               </a>{" "}
               on how to be a better developer
             </td>
-            <td sx={{color: 'grey'}} className="education-date">March 2023 - Present</td>
+            <td sx={{color: 'grey'}} className="education-date">March 2023 - March 2024</td>
           </tr>
           <tr>
             <td className="education-location">General Assembly</td>
@@ -68,12 +68,16 @@ const ResumePage = () => {
       <table>
         <tbody>
           <tr>
-            <td sx={{color: 'grey'}} className="experience-date">September 2021 - Present</td>
-            <td className="experience-location">Lowes</td>
+            <td sx={{color: 'grey'}} className="experience-date">July 2024 - Present</td>
+            <td className="experience-location">Fast Line Safety Training</td>
           </tr>
           <tr>
             <td sx={{color: 'grey'}} className="experience-date">October 2023 - Present</td>
             <td className="experience-location">Freelance</td>
+          </tr>
+          <tr>
+            <td sx={{color: 'grey'}} className="experience-date">September 2021 - July 2024</td>
+            <td className="experience-location">Lowes</td>
           </tr>
         </tbody>
       </table>

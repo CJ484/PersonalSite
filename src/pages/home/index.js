@@ -26,13 +26,13 @@ const HomePage = () => {
           curious person and love to learn new things. I am a very hard worker
           and I am always looking for new challenges. I am on the verge of
           looking for a new job opportunity that allows me to grow
-          professionally and personally.
+          professionally and personally. I am currently working as SEO Specialist.
         </p>
       </div>
       <div className="homeSection">
-        <h1>👀 Currently looking for employment</h1>
+        <h1>👀 Currently looking for opportunity to improve my carrer</h1>
         <h1>📍 Currently located on Long Island, NY</h1>
-        <h1>📚 Learning to be a Full-Stack Developer & Web 3.0</h1>
+        <h1>📚 Learning to be a Web 3.0 Developer</h1>
       </div>
       <h1 className="subtitle">Social Media</h1>
       <div sx={{ color: "purple" }} className="social-media homeSection">
