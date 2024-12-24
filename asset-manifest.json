@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.4a391b03.css",
-    "main.js": "/static/js/main.21db8075.js",
-    "static/js/400.daba68bb.chunk.js": "/static/js/400.daba68bb.chunk.js",
+    "main.js": "/static/js/main.3851e08a.js",
+    "static/js/400.71c5b0c3.chunk.js": "/static/js/400.71c5b0c3.chunk.js",
     "static/js/612.b0562207.chunk.js": "/static/js/612.b0562207.chunk.js",
-    "static/js/308.0a1f1bb4.chunk.js": "/static/js/308.0a1f1bb4.chunk.js",
+    "static/js/308.a9c52fb9.chunk.js": "/static/js/308.a9c52fb9.chunk.js",
     "static/media/dogwalk.png": "/static/media/dogwalk.bd92f84d763aa0cda7dc.png",
     "static/media/prestige.png": "/static/media/prestige.ea5cef35df4e931fef4c.png",
     "static/media/iglesia_el_nazareno.png": "/static/media/iglesia_el_nazareno.c622e054291802d5c3e5.png",
@@ -34,13 +34,13 @@
     "static/media/html.svg": "/static/media/html.bfc29cc664956a7748f9ee78fa82ec7b.svg",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.4a391b03.css.map": "/static/css/main.4a391b03.css.map",
-    "main.21db8075.js.map": "/static/js/main.21db8075.js.map",
-    "400.daba68bb.chunk.js.map": "/static/js/400.daba68bb.chunk.js.map",
+    "main.3851e08a.js.map": "/static/js/main.3851e08a.js.map",
+    "400.71c5b0c3.chunk.js.map": "/static/js/400.71c5b0c3.chunk.js.map",
     "612.b0562207.chunk.js.map": "/static/js/612.b0562207.chunk.js.map",
-    "308.0a1f1bb4.chunk.js.map": "/static/js/308.0a1f1bb4.chunk.js.map"
+    "308.a9c52fb9.chunk.js.map": "/static/js/308.a9c52fb9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a391b03.css",
-    "static/js/main.21db8075.js"
+    "static/js/main.3851e08a.js"
   ]
 }
